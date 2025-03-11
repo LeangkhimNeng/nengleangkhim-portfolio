@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       initial={{ opacity: 0, scale: 0.9 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
-      className="h-screen flex justify-between items-center text-stone-500 bg-slate-100 text-center p-10 px-36 "
+      className="h-screen flex md:justify-between justify-center items-center text-stone-500 bg-slate-100 text-center p-10 px-36 "
     >
       <div className="gap-x-5">
         <h1 className="text-4xl font-bold">

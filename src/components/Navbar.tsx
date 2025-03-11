@@ -15,12 +15,12 @@ const Navbar: React.FC = () => {
 
   return (
     <div
-      className={`fixed top-0 w-full flex justify-between items-center transition-all  duration-300 p-4 px-20 ${
-        isScrolled ? "bg-stone-500 shadow-lg text-white" : "bg-transparent "
+      className={`fixed top-0 w-full flex md:justify-between justify-center items-center transition-all  duration-300 p-4 px-20 ${
+        isScrolled ? "bg-stone-500 shadow-lg text-white z-50" : "bg-transparent "
       }`}
     >
       <h1
-        className={`text-2xl font-bold  gap-4  flex justify-baseline text-center items-center ${
+        className={`text-2xl font-bold gap-4  flex justify-baseline text-center items-center ${
           isScrolled ? " text-white" : "text-stone-500 "
         }`}
       >

@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const projects = [
-  { title: "Mbanq Project", description: "Built with Vue2 & 3." },
+  { title: "Mbanq Payment Service Project", description: "Built with Vue2 & 3." },
   { title: "Website", description: "Built with HTML, CSS and Laravel." },
 ];
 

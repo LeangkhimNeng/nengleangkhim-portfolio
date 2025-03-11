@@ -1,3 +1,56 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Solway:wght@300;400;500;700;800&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
+
+body {
+  font-family: "Sanchez", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.sanchez-regular {
+  font-family: "Sanchez", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sanchez-regular-italic {
+  font-family: "Sanchez", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+.solway-light {
+  font-family: "Solway", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.solway-regular {
+  font-family: "Solway", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.solway-medium {
+  font-family: "Solway", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.solway-bold {
+  font-family: "Solway", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.solway-extrabold {
+  font-family: "Solway", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
 #root {
   /* max-width: 1280px; */
   margin: 0 auto;
@@ -5,18 +58,20 @@
   text-align: center;
 }
 
-/* .logo {
+.logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+  display: inline;
+  justify-items: center;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-} */
+}
 
 @keyframes logo-spin {
   from {
